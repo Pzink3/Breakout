@@ -6,7 +6,7 @@ game.PaddleEntity = me.ObjectEntity.extend ({
 
        this.parent(x, y, settings);
        
-       this.setVelocity(2, 0);
+       this.setVelocity(4, 3);
        
        this.type = "paddle";
        this.collidable = true;
@@ -34,7 +34,7 @@ game.BallEntity = me.ObjectEntity.extend ({
        settings.spriteheight = "16";
        this.parent(x, y, settings);
        
-       this.setVelocity(2, 2);
+       this.setVelocity(4, 2);
        this.vel.x += this.accel.x * me.timer.tick;
        this.vel.y += this.accel.y * me.timer.tick;
        

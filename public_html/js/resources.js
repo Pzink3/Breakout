@@ -9,6 +9,7 @@ game.resources = [
            { name: "ball", type:"image", src: "data/img/ball.png" },
            { name: "brick", type:"image", src: "data/img/brick.png" },
            { name: "meta-tiles", type:"image", src: "data/img/meta-tiles.png" },
+         
         // *** App Academy ***
         // Add two graphics files, tiles and paddle, as a resource to use
         
